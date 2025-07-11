@@ -2,6 +2,8 @@
 
 A real-time webcam-based human pose detection and motion tracking system built with React, TypeScript, and TensorFlow.js.
 
+🎮 **[Live Demo](https://gait.jedarden.com)** - Try it out in your browser!
+
 ## 🎯 Features
 
 - **Real-time Pose Detection**: Uses TensorFlow.js with MoveNet for accurate pose estimation
@@ -138,6 +140,20 @@ Contributions are welcome! Please read our contributing guidelines and submit pu
 - Create an issue on GitHub
 - Check the documentation in `/docs`
 - View deployment guide in `DEPLOYMENT.md`
+
+## 🤖 AI-Generated Code
+
+This project was created using AI assistance. Below are the prompts that were used to generate this codebase:
+
+### First Prompt
+```
+Create a new folder in research/pose-detection conduct deep research into creating a webpage that can use a computer's webcam to analyze and detect a human in the video and to overlay pose detection of the user's body. Source the data from from academic papers, github repos, blogs, and youtube transcripts (source using youtube-transcript-retrieval library). Create up to 8 agents using the available MCP servers to conduct the research. Put all file into research/pose-detection.
+```
+
+### Second Prompt
+```
+Based on the research in research/pose-detection create a docker image in containers/pose-detection. The application should be a single docker image which exposes a single port. It will create a web experience that uses the user's webcam to detect the presence of a person and to draw an overlay showing the person's pose and orientation. Use up to 8 agents to build this application concurrently. Follow test driven development principles and keep iterating until the application is complete. If stuck conduct deep web searches to resolve the problem. All created files should go in containers/pose-detection
+```
 
 ---
 
